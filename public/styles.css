@@ -60,10 +60,12 @@ nav {
   z-index: 1;
   display: fixed;
   top: 0;
+  padding: 2.3%;
 }
 
 .nav-link {
   color: #fff !important;
+  margin-left: 25px;
 }
 
 .navbar.scrolled {

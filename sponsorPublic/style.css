@@ -388,6 +388,7 @@ nav {
 
 .nav-link {
   color: #fff !important;
+  margin-left: 25px;
 }
 
 .nav-item {
