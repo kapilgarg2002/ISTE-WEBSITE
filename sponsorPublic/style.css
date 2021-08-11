@@ -404,6 +404,9 @@ nav {
     width: 100px;
     margin-left: 0px;
   }
+  .nav-item {
+    background-color: #000;
+  }
 }
 /* ///////////////////////////// footer////////////////////////// */
 

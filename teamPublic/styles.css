@@ -32,45 +32,6 @@ h4 {
   overflow: hidden;
   background-color: #000;
 }
-nav {
-  height: 60px;
-}
-.navbar {
-  position: fixed;
-  margin-right: -5%;
-  margin-top: 0;
-  width: 100%;
-  z-index: 1;
-  display: fixed;
-  top: 0;
-}
-
-.nav-link {
-  color: #fff !important;
-}
-
-.navbar.scrolled {
-  background-color: #000;
-  padding: 2.3%;
-  transition: 0.6s;
-}
-
-.nav-item {
-  font-weight: bolder;
-  color: #194273;
-  font-size: 1.2rem;
-}
-.name-head {
-  font-family: Montserrat;
-  color: #2d82ad;
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: 500;
-}
-.logo {
-  width: 200px;
-  height: 100%;
-}
 
 .Our-team {
   font-size: 4rem;
@@ -462,10 +423,14 @@ nav {
   .navbar {
     background-color: #000;
     padding: 0%;
+    /* max-width: 100% !important; */
   }
   .logo {
     width: 100px;
     margin-left: 0px;
+  }
+  .nav-item {
+    background-color: #000;
   }
 }
 

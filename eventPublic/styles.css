@@ -121,7 +121,7 @@ img {
   left: 50%;
   bottom: 0;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -431,6 +431,9 @@ nav {
   .logo {
     width: 100px;
     margin-left: 0px;
+  }
+  .nav-item {
+    background-color: #000;
   }
 }
 
