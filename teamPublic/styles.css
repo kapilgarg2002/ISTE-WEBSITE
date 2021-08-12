@@ -1,5 +1,8 @@
-body,
 html {
+  overflow-x: hidden;
+}
+
+body {
   text-align: center;
   height: 100%;
   margin: 0;
@@ -12,8 +15,9 @@ a {
 }
 
 h4 {
-  color: white;
+  color: #333;
   font-weight: bolder;
+  text-align: center;
 }
 
 .logo {
@@ -328,6 +332,8 @@ h4 {
   }
 }
 /*********************bg-img for lg-screen*************************/
+
+
 @media screen and (min-width: 991px) {
   .bg-img {
     background-image: url("images/Right\ Angle.png");
@@ -337,14 +343,14 @@ h4 {
     background-position-x: 5%;
     background-position-y: 90%;
   }
-  .bg-core {
+  /* .bg-core {
     background-image: url("images/Small.png");
 
     background-size: 31%;
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 100%;
-  }
+  } */
   .bg-exec {
     background-image: url("images/Small.png");
 
