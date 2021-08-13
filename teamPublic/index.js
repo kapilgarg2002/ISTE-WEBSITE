@@ -40,7 +40,7 @@ else {
 
   $(window).scroll(function(event) {
   
-    $("#fac-advisor").each(function(i, el) {
+    $("#fa-advisor").each(function(i, el) {
       var el = $(el);
       if (el.visible(true)) {
         el.addClass("come-in"); 

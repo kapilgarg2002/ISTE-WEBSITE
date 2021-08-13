@@ -130,6 +130,12 @@ nav {
   }
 }
 
+@media (max-width: 557px) {
+  #contact-form {
+    padding-top: 15%;
+  }
+}
+
 /*//////////////////////////////// scrollbar ////////////////////////////////////////*/
 
 ::-webkit-scrollbar {

@@ -18,14 +18,24 @@ body {
   animation: gradient 15s ease infinite;
   font-family: "Montserrat", sans-serif;
 }
+
+.heading {
+  margin-top: 12%;
+}
+
+@media (max-width: 789.5px) {
+  .heading {
+    margin-top: 30%;
+  }
+}
+
 h1 {
   font-size: 4rem;
-  border: 1px solid white;
   margin-left: 250px;
   margin-right: 250px;
   border-radius: 15px;
-  background-color: #fff;
-  color: #181719;
+  background-color: #194273;
+  color: #ffffff;
 }
 .flip-card {
   background-color: transparent;
@@ -183,45 +193,45 @@ h1 {
   }
   #card1 {
     position: relative;
-    right: 50px;
+    right: 11%;
     margin-bottom: 70px;
   }
   #card2 {
     position: relative;
-    right: 50px;
+    right: 11%;
     margin-bottom: 70px;
   }
   #card3 {
     position: relative;
-    right: 50px;
+    right: 11%;
   }
   #card4 {
     position: relative;
-    right: 5px;
+    /* right: 11%; */
     margin-bottom: 70px;
   }
   #card5 {
     position: relative;
-    right: 5px;
+    /* right: 11%; */
     margin-bottom: 70px;
   }
   #card6 {
     position: relative;
-    right: 5px;
+    /* right: 11%; */
   }
   #card7 {
     position: relative;
-    right: 50px;
+    right: 11%;
     margin-bottom: 70px;
   }
   #card8 {
     position: relative;
-    right: 50px;
+    right: 11%;
     margin-bottom: 70px;
   }
   #card9 {
     position: relative;
-    right: 50px;
+    right: 11%;
   }
 }
 
@@ -236,45 +246,45 @@ h1 {
 
   #card1 {
     position: relative;
-    right: 45px;
+    right: 18%;
     margin-bottom: 70px;
   }
   #card2 {
     position: relative;
-    right: 45px;
+    right: 18%;
     margin-bottom: 70px;
   }
   #card3 {
     position: relative;
-    right: 45px;
+    right: 18%;
   }
   #card4 {
     position: relative;
-    right: 5px;
+    /* right: 18%; */
     margin-bottom: 70px;
   }
   #card5 {
     position: relative;
-    right: 5px;
+    /* right: 18%; */
     margin-bottom: 70px;
   }
   #card6 {
     position: relative;
-    right: 5px;
+    /* right: 111% */
   }
   #card7 {
     position: relative;
-    right: 45px;
+    right: 18%;
     margin-bottom: 70px;
   }
   #card8 {
     position: relative;
-    right: 45px;
+    right: 18%;
     margin-bottom: 70px;
   }
   #card9 {
     position: relative;
-    right: 45px;
+    right: 18%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
