@@ -53,7 +53,7 @@ body {
 }
 
 .my-form .form-control {
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 /*////////////////////////////// footer/////////////////////////////////////// */
@@ -157,4 +157,7 @@ nav {
 .container-colored {
   background-color: #194273;
   color: #fff;
+}
+input {
+  margin-bottom: 3.5%;
 }
