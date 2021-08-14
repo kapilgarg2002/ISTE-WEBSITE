@@ -23,9 +23,20 @@ body {
   margin-top: 12%;
 }
 
+.head-para {
+  text-align: center;
+  padding: 4% 15% 0;
+  color: white;
+}
+
 @media (max-width: 789.5px) {
   .heading {
     margin-top: 30%;
+  }
+  .head-para {
+    text-align: center;
+    padding: 6s% 15% 0;
+    color: white;
   }
 }
 
